@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Faro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        /* Estilo personalizado para el título */
+        .card-title {
+            font-size: 1rem; /* Tamaño de fuente personalizado */
+        }
+    </style>
+</head>
+<body>
+    <!-- Aquí irá el contenido de tu sitio web -->
+    <header>
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">El Faro</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Categoría</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="container mt-4">
+        <!-- Buscador -->
+        <div class="mb-3">
+            <form class="form-inline">
+                <input type="text" class="form-control" placeholder="Buscar por autor, título o categoría">
+                <button type="submit" class="btn btn-primary">Buscar</button>
+            </form>
+        </div>
+    
+        <!-- Contenedor de libros -->
+        <div class="d-flex flex-wrap">
+            <!-- Libro 1 -->
+            <div class="card mb-3" style="margin-right: 10px; width: 200px;">
+                <img src="img/paulo_1.png" class="card-img-top" alt="La Bruja de Portobello">
+                <div class="card-body">
+                    <h5 class="card-title">DEMON SLAYER : KIMETSU NO YAIBA</h5>
+                    <p class="card-text">Autor: GOTOUGE, KOYOHARU</p>
+                    <p class="card-text">Categoría: Cómics</p>
+                    <!-- a href="#" class="btn btn-primary">Ver detalles</a-->
+                    <a href="books/demon_slayer2.html" class="btn btn-primary"> Ver detalles</a>
+
+                </div>
+            </div>
+    
+            <!-- Libro 2 -->
+            <div class="card mb-3" style="margin-right: 10px; width: 200px;">
+                <img src="img/paulo_2.png" class="card-img-top" alt="La Bruja de Portobello">
+                <div class="card-body">
+                    <h5 class="card-title">BATMAN: ESTADO DE MIEDO</h5>
+                    <p class="card-text">Autor: JAMES TYNION</p>
+                    <p class="card-text">Categoría: Cómics</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+            </div>
+    
+            <!-- Libro 3 -->
+            <div class="card mb-3" style="margin-right: 10px; width: 200px;">
+                <img src="img/paulo_3.png" class="card-img-top" alt="La Bruja de Portobello">
+                <div class="card-body">
+                    <h5 class="card-title">SUPERMAN: ESTADO FUTURO</h5>
+                    <p class="card-text">Autor: LEX IMPERIOSO</p>
+                    <p class="card-text">Categoría: Cómics</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+            </div>
+
+            <!-- Libro 4 -->
+            <div class="card mb-3" style="margin-right: 10px; width: 200px;">
+                <img src="img/paulo_4.png" class="card-img-top" alt="La Bruja de Portobello">
+                <div class="card-body">
+                    <h5 class="card-title">SUPERMAN: ARRIBA EN EL CIELO</h5>
+                    <p class="card-text">Autor: LEX IMPERIOSO</p>
+                    <p class="card-text">Categoría: Cómics</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+            </div>
+
+            <!-- Libro 5 -->
+            <div class="card mb-3" style="margin-right: 10px; width: 200px;">
+                <img src="img/paulo_5.png" class="card-img-top" alt="La Bruja de Portobello">
+                <div class="card-body">
+                    <h5 class="card-title">BATMAN: JOKER</h5>
+                    <p class="card-text">Autor: JAMES TYNION</p>
+                    <p class="card-text">Categoría: Cómics</p>
+                    <a href="#" class="btn btn-primary">Ver detalles</a>
+                </div>
+            </div>
+            <!-- Puedes seguir agregando más libros aquí -->
+            
+        </div>
+
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        &copy; 2023 FSP Books
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>
